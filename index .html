@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Một món quà sinh nhật nhỏ dành tặng Như Ý">
+  <title>Mừng sinh nhật 21/09/2026 🎂</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;600;700&family=Great+Vibes&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <canvas id="stars"></canvas>
+  <div class="glow glow-one"></div>
+  <div class="glow glow-two"></div>
+
+  <main>
+    <section class="intro" id="intro">
+      <div class="gift" aria-hidden="true"><span class="lid"></span><span class="box"></span><span
+          class="ribbon"></span></div>
+      <p class="eyebrow">Có một món quà nhỏ dành cho</p>
+      <h1>Trần Hà Xuân Hương</h1>
+      <button id="openBtn">Mở món quà <span>♡</span></button>
+      <p class="hint">chúc em ngày sinh nhật thiệt là duiii ♪</p>
+    </section>
+
+    <section class="card" id="card" aria-hidden="true">
+      <div class="left">
+        <p class="date" id="today"></p>
+        <h2>Happy Birthday<br><em>Trần Hà Xuân Hương</em></h2>
+        <div class="message" id="message" aria-live="polite"></div>
+        <div class="counter">
+          <p>Khoảnh khắc tuyệt vời này đã kéo dài</p>
+          <div class="time"><span><b id="minutes">00</b> phút</span><i>:</i><span><b id="seconds">00</b> giây</span>
+          </div>
+        </div>
+        <p class="signature">Gửi đến người anh yêu, bằng tất cả yêu thương ♡</p>
+      </div>
+      <div class="garden" id="garden">
+        <div class="heart" id="flowerHeart"></div>
+        <div class="trunk"><i></i><i></i><i></i></div>
+        <div class="ground"></div>
+      </div>
+    </section>
+  </main>
+
+  <button class="sound" id="soundBtn" aria-label="Bật hoặc tắt nhạc">♪</button>
+  <script src="script.js"></script>
+</body>
+
+</html>
